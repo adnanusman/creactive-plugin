@@ -4,8 +4,9 @@
 * Description: Custom Scripts created by Adnan Usman for Creactive Inc.
 * Author: Adnan Usman
 * Author URI: https://github.com/adnanusman/
+* Plugin URI: https://github.com/adnanusman/creactive-plugin
 * GitHub Plugin URI: https://github.com/adnanusman/creactive-plugin
-* Version: 1.0.1
+* Version: 1.0.2
 */
 add_action( 'wp_footer', 'creactive_scripts' );
 function creactive_scripts(){
