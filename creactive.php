@@ -5,7 +5,7 @@
 * Author: Adnan Usman
 * Author URI: https://github.com/adnanusman/
 * GitHub Plugin URI: https://github.com/adnanusman/creactive-plugin
-* Version: 1.0.0
+* Version: 1.0.1
 */
 add_action( 'wp_footer', 'creactive_scripts' );
 function creactive_scripts(){
