@@ -6,7 +6,7 @@
 * Author URI: https://github.com/adnanusman/
 * Plugin URI: https://github.com/adnanusman/creactive-plugin
 * GitHub Plugin URI: https://github.com/adnanusman/creactive-plugin
-* Version: 1.0.2
+* Version: 1.0.3
 */
 add_action( 'wp_footer', 'creactive_scripts' );
 function creactive_scripts(){
@@ -40,13 +40,14 @@ var creactiveApp = {
 		},
 
 	setupEventListeners: function () {
-		var hiddenList = document.getElementById('hiddenlist');
 		var viewList = document.getElementsByClassName('viewlist');
 		var app = this;
 
 		for (var i = 0; i<viewList.length; i++) {
 			viewList[i].addEventListener('click', function(event) {
 				
+				var hiddenList = document.getElementById(event.target.parentNode.nextElementSibling.id);
+
 				if(hiddenList.style.display == 'block') {
 					app.fadeOut(hiddenList);
 					} else {
