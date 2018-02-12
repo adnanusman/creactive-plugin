@@ -46,25 +46,27 @@ var creactiveApp = {
 		for (var i = 0; i<viewList.length; i++) {
 			viewList[i].addEventListener('click', function(event) {
 				
-				var hiddenList = document.getElementById(event.target.parentNode.nextElementSibling.id);
+				var hiddenListID = event.target.parentNode.nextElementSibling.id;
+			
+					if (hiddenListID.startsWith('hidden')) {
+							
+						var hiddenList = document.getElementById(hiddenListID);
 
-				if(hiddenList.style.display == 'block') {
-					app.fadeOut(hiddenList);
-					} else {
-					app.fadeIn(hiddenList);
-					}
+						if(hiddenList.style.display == 'block') {
+							app.fadeOut(hiddenList);
+						} else {
+							app.fadeIn(hiddenList);
+						}
 
-//				if(hiddenList.style.display == 'block') {
-//					hiddenList.style.display = 'none';
-//					hiddenList.style.opacity = '0';
-//					} else {
-//					hiddenList.style.display = 'block';
-//					hiddenList.style.opacity = '1';
-//					}
-				}, false);
+                                        } else {
+
+                                        console.log('ID does not begin with hidden');
+
+                                        }
+			}, false);
 		}
 	}		
-	};
+};
 
 creactiveApp.setupEventListeners();
 
