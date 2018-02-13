@@ -14,7 +14,7 @@ Download the zip file from GitHub and install it to your WordPress website.
 
 Create any number of buttons on a page, with the class: viewlist
 
-Add a ul or div element below it with the id. The name of the id should begin with 'hidden' in it.
+Add a ul or div element below it with the id. The name of the id should begin with 'hidden' in it and every hidden item should have a unique id.
 
 You can hide an element with the following CSS styles, here is how you would create a hiddenlist id:
 
