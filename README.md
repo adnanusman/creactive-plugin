@@ -6,6 +6,7 @@ However, it can be used to hide/display anything as long as it is wrapped within
 ## Requirements
 
 Create a button that says 'View Our List of Services', when it is clicked, a hidden list of services should appear.
+It should have a fade in and fade out effect.
 
 ## How it works
 
