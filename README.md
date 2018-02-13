@@ -1,6 +1,6 @@
 # creactive-plugin
 
-This plugin was created by me for use on websites at work, where the list of services were too long. 
+This WordPress plugin was created by me for use on websites at work, where the list of services were too long. 
 However, it can be used to hide/display anything as long as it is wrapped within a div with an id starting with 'hidden' in its name.
 
 ## Requirements
@@ -9,6 +9,8 @@ Create a button that says 'View Our List of Services', when it is clicked, a hid
 It should have a fade in and fade out effect.
 
 ## How it works
+
+Download the zip file from GitHub and install it to your WordPress website.
 
 Create any number of buttons on a page, with the class: viewlist
 
