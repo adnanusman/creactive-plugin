@@ -1,4 +1,4 @@
-# creactive-plugin
+# Button Toggle Plugin for WordPress
 
 This WordPress plugin was created by me for use on websites at work, where the list of services were too long. 
 However, it can be used to hide/display anything as long as it is wrapped within a div with an id starting with 'hidden' in its name.
