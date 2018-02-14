@@ -5,7 +5,7 @@
 * Author: Adnan Usman
 * Author URI: https://github.com/adnanusman/
 * Plugin URI: https://github.com/adnanusman/custom-button-toggle-plugin
-* GitHub Plugin URI: https://github.com/adnanusman/custom-button-toggle-plugin.git
+* GitHub Plugin URI: https://github.com/adnanusman/custom-button-toggle-plugin
 * Version: 1.0.1
 */
 
