@@ -1,19 +1,14 @@
-<?php
 /** 
-* Plugin Name: Custom Scripts
-* Description: Custom Scripts created by Adnan Usman for Creactive Inc.
+* Plugin Name: Custom Script to Toggle Elements
+* Description: Custom Scripts created by Adnan Usman.
 * Author: Adnan Usman
 * Author URI: https://github.com/adnanusman/
-* Plugin URI: https://github.com/adnanusman/creactive-plugin
-* GitHub Plugin URI: https://github.com/adnanusman/creactive-plugin
-* Version: 1.0.3
+* Plugin URI: https://github.com/adnanusman/custom-button-toggle-plugin
+* GitHub Plugin URI: https://github.com/adnanusman/custom-button-toggle-plugin
+* Version: 1.0.1
 */
-add_action( 'wp_footer', 'creactive_scripts' );
-function creactive_scripts(){
-  ?>
-<script type="text/javascript">
 
-var creactiveApp = {
+var btoggleApp = {
 
 	fadeOut: function(el) {
 		el.style.opacity = 1;
@@ -68,10 +63,6 @@ var creactiveApp = {
 	}		
 };
 
-creactiveApp.setupEventListeners();
-
-</script>
-  <?php
-}
+btoggleApp.setupEventListeners();
 
 
